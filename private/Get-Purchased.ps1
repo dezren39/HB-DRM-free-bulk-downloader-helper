@@ -1,0 +1,1 @@
+Get-Content $PSScriptRoot\..\purchased.txt | ? { $_.indexOf((. $PSScriptRoot\Get-SplitKey.ps1)) -ne -1 } | %{($_ -split (. $PSScriptRoot\Get-SplitKey.ps1))[-1]}

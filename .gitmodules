@@ -1,0 +1,3 @@
+[submodule "HB-DRM-free-bulk-downloader"]
+	path = HB-DRM-free-bulk-downloader
+	url = https://github.com/dezren39/HB-DRM-free-bulk-downloader

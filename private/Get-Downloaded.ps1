@@ -1,0 +1,1 @@
+Get-ChildItem $PSScriptRoot\..\downloads\ | ? { $_.Name.indexOf('_') -ne -1 } | % {($_.Name -split '_')[-1]}
